@@ -10,3 +10,4 @@ seed-paths: ["seeds"]
 models:
   omni_project:
     +materialized: view
+
