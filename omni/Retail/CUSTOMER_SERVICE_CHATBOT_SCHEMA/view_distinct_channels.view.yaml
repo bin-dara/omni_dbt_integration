@@ -1,0 +1,11 @@
+# Reference this view as customer_service_chatbot_schema__view_distinct_channels
+schema: CUSTOMER_SERVICE_CHATBOT_SCHEMA
+table_name: VIEW_DISTINCT_CHANNELS
+
+dimensions:
+  channel:
+    sql: '"CHANNEL"'
+
+measures:
+  count:
+    aggregate_type: count

@@ -1,0 +1,78 @@
+# Reference this view as customer_service_chatbot_schema__customer_service_chatbot_table
+schema: CUSTOMER_SERVICE_CHATBOT_SCHEMA
+table_name: CUSTOMER_SERVICE_CHATBOT_TABLE
+
+dimensions:
+  chat_id:
+    sql: '"CHAT_ID"'
+    format: ID
+
+  customer_name:
+    sql: '"CUSTOMER_NAME"'
+
+  channel:
+    sql: '"CHANNEL"'
+
+  intent:
+    sql: '"INTENT"'
+
+  query_text:
+    sql: '"QUERY_TEXT"'
+
+  response_text:
+    sql: '"RESPONSE_TEXT"'
+
+  sentiment_score:
+    sql: '"SENTIMENT_SCORE"'
+
+  csat_score:
+    sql: '"CSAT_SCORE"'
+
+  nps_response:
+    sql: '"NPS_RESPONSE"'
+
+  resolution_status:
+    sql: '"RESOLUTION_STATUS"'
+
+  escalated_to_agent:
+    sql: '"ESCALATED_TO_AGENT"'
+
+  ai_handled:
+    sql: '"AI_HANDLED"'
+
+  response_time_sec:
+    sql: '"RESPONSE_TIME_SEC"'
+
+  handling_time_sec:
+    sql: '"HANDLING_TIME_SEC"'
+
+  confidence_score:
+    sql: '"CONFIDENCE_SCORE"'
+
+  correct_intent:
+    sql: '"CORRECT_INTENT"'
+
+  knowledge_gap:
+    sql: '"KNOWLEDGE_GAP"'
+
+  customer_effort_score:
+    sql: '"CUSTOMER_EFFORT_SCORE"'
+
+  sentiment_label:
+    sql: '"SENTIMENT_LABEL"'
+
+  cost_saved_usd:
+    sql: '"COST_SAVED_USD"'
+
+  product_category:
+    sql: '"PRODUCT_CATEGORY"'
+
+  chat_date:
+    sql: '"CHAT_DATE"'
+
+  hour_of_day:
+    sql: '"HOUR_OF_DAY"'
+
+measures:
+  count:
+    aggregate_type: count

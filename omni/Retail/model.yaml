@@ -1,0 +1,4 @@
+# Values can be provided as an indented list
+
+# Or as a comma-delimited list
+included_schemas: [ CUSTOMER_SERVICE_CHATBOT_SCHEMA ]
