@@ -4,7 +4,7 @@ config-version: 2
 
 profile: 'default'
 
-model-paths: ["models"]
+model-paths: ["https://github.com/bin-dara/omni_dbt_integration/tree/main/models"]
 seed-paths: ["seeds"]
 
 models:
