@@ -4,7 +4,7 @@ config-version: 2
 
 profile: default
 
-model-paths: ["models"]
+model-paths: ["Retail"]
 seed-paths: ["seeds"]
 
 models:
