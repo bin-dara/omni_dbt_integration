@@ -1,4 +1,4 @@
-name: 'bin_dara'
+name: 'omni_project'
 version: '1.0.0'
 config-version: 2
 
@@ -8,4 +8,5 @@ model-paths: ["https://github.com/bin-dara/omni_dbt_integration/tree/main/models
 seed-paths: ["https://github.com/bin-dara/omni_dbt_integration/tree/main/seeds"]
 
 models:
+  omni_project:
   +materialized: view
